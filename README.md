@@ -54,7 +54,19 @@ jupyter notebook
 	4.	Execute the cells step-by-step for each of the files in the described order to process the data, train the model, and generate the necessary outputs.
 
 	5.	The output files (e.g., predictions, feature importance) will be saved in the folder and can be used for further analysis and visualization.
-
+ 
+Requirement Package:
+	pandas==1.5.3
+	numpy==1.23.5
+	matplotlib==3.7.1
+	scikit-learn==1.2.2
+	xgboost==1.7.5
+	statsmodels==0.13.5
+	shap==0.41.0
+	nltk==3.8.1
+	seaborn==0.12.2
+	spacy==3.6.0
+ 
 PowerBI Integration:
 
 The output files from the model and feature extraction processes will be uploaded into the PowerBI file to feed the interactive visualizations. These files are stored in the project folder for easy access.
